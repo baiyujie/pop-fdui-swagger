@@ -1,9 +1,9 @@
-{
+ï»¿{
     "swagger": "2.0",
     "info": {
         "description": "Swagger Bootstrap UI",
         "version": "1.0",
-        "title": "JD-SwaggerÇ°ºóÆõÔ¼",
+        "title": "JD-Swaggerå‰åå¥‘çº¦",
         "contact": {
             "name": "WhiteYj",
             "url": "https://github.com/baiyujie",
@@ -14,7 +14,7 @@
     "basePath": "/",
     "tags": [
         {
-            "name": "²âÊÔC",
+            "name": "æµ‹è¯•C",
             "description": "Testc Controller"
         },
         {
@@ -30,19 +30,19 @@
             "description": "User Controller"
         },
         {
-            "name": "²Ëµ¥",
+            "name": "èœå•",
             "description": "Menu Controller"
         },
         {
-            "name": "²âÊÔResponseEntity",
+            "name": "æµ‹è¯•ResponseEntity",
             "description": "Resp Controller"
         },
         {
-            "name": "²âÊÔÓÃÀı",
+            "name": "æµ‹è¯•ç”¨ä¾‹",
             "description": "Test Controller"
         },
         {
-            "name": "ÎÄ¼şÉÏ´«",
+            "name": "æ–‡ä»¶ä¸Šä¼ ",
             "description": "Upload Controller"
         }
     ],
@@ -53,7 +53,7 @@
                     "example"
                 ],
                 "summary": "ModelAttribute",
-                "description": "ModelAttributeÀàĞÍ²ÎÊı",
+                "description": "ModelAttributeç±»å‹å‚æ•°",
                 "operationId": "reqbody1UsingPOST",
                 "consumes": [
                     "application/json"
@@ -65,14 +65,14 @@
                     {
                         "name": "name",
                         "in": "query",
-                        "description": "ĞÕÃû",
+                        "description": "å§“å",
                         "required": false,
                         "type": "string"
                     },
                     {
                         "name": "tel",
                         "in": "query",
-                        "description": "µç»°ºÅÂë",
+                        "description": "ç”µè¯å·ç ",
                         "required": false,
                         "type": "string"
                     }
@@ -102,10 +102,10 @@
         "/api/menu/getMenu": {
             "post": {
                 "tags": [
-                    "²Ëµ¥"
+                    "èœå•"
                 ],
-                "summary": "»ñÈ¡²Ëµ¥",
-                "description": "»ñÈ¡²Ëµ¥,¿¼ÂÇµİ¹éµÄÇé¿ö",
+                "summary": "è·å–èœå•",
+                "description": "è·å–èœå•,è€ƒè™‘é€’å½’çš„æƒ…å†µ",
                 "operationId": "getMenuUsingPOST",
                 "consumes": [
                     "application/json"
@@ -138,10 +138,10 @@
         "/api/resp/test": {
             "post": {
                 "tags": [
-                    "²âÊÔResponseEntity"
+                    "æµ‹è¯•ResponseEntity"
                 ],
-                "summary": "stringÀàĞÍ",
-                "description": "Õë¶ÔResponseEntity<String>",
+                "summary": "stringç±»å‹",
+                "description": "é’ˆå¯¹ResponseEntity<String>",
                 "operationId": "testUsingPOST",
                 "consumes": [
                     "application/json"
@@ -174,10 +174,10 @@
         "/api/resp/test1": {
             "post": {
                 "tags": [
-                    "²âÊÔResponseEntity"
+                    "æµ‹è¯•ResponseEntity"
                 ],
-                "summary": "ÊµÌåÀà",
-                "description": "Õë¶ÔResponseEntity<T>ÀàĞÍ",
+                "summary": "å®ä½“ç±»",
+                "description": "é’ˆå¯¹ResponseEntity<T>ç±»å‹",
                 "operationId": "test1UsingPOST",
                 "consumes": [
                     "application/json"
@@ -210,10 +210,10 @@
         "/api/test/deletetest": {
             "delete": {
                 "tags": [
-                    "²âÊÔÓÃÀı"
+                    "æµ‹è¯•ç”¨ä¾‹"
                 ],
                 "summary": "deletetest",
-                "description": "deletetest²âÊÔËµÃ÷2",
+                "description": "deletetestæµ‹è¯•è¯´æ˜2",
                 "operationId": "deletetestUsingDELETE",
                 "consumes": [
                     "application/json"
@@ -252,10 +252,10 @@
         "/api/test/puttest": {
             "put": {
                 "tags": [
-                    "²âÊÔÓÃÀı"
+                    "æµ‹è¯•ç”¨ä¾‹"
                 ],
                 "summary": "puttest",
-                "description": "puttest²âÊÔËµÃ÷2",
+                "description": "puttestæµ‹è¯•è¯´æ˜2",
                 "operationId": "puttestUsingPUT",
                 "consumes": [
                     "application/json"
@@ -298,10 +298,10 @@
         "/api/test/reqbody": {
             "post": {
                 "tags": [
-                    "²âÊÔÓÃÀı"
+                    "æµ‹è¯•ç”¨ä¾‹"
                 ],
-                "summary": "RequestBody½Ó¿ÚÀàĞÍ",
-                "description": "RequestBody²âÊÔ½Ó¿Ú,ÊµÌåÀàĞÍ",
+                "summary": "RequestBodyæ¥å£ç±»å‹",
+                "description": "RequestBodyæµ‹è¯•æ¥å£,å®ä½“ç±»å‹",
                 "operationId": "reqbodyUsingPOST",
                 "consumes": [
                     "application/json"
@@ -313,7 +313,7 @@
                     {
                         "in": "body",
                         "name": "reqEntity",
-                        "description": "ÊµÌåÀàĞÍ",
+                        "description": "å®ä½“ç±»å‹",
                         "required": true,
                         "schema": {
                             "$ref": "#/definitions/ReqEntity"
@@ -345,10 +345,10 @@
         "/api/test/reqbody1": {
             "post": {
                 "tags": [
-                    "²âÊÔÓÃÀı"
+                    "æµ‹è¯•ç”¨ä¾‹"
                 ],
                 "summary": "ModelAttribute",
-                "description": "ModelAttributeÀàĞÍ²ÎÊı",
+                "description": "ModelAttributeç±»å‹å‚æ•°",
                 "operationId": "reqbody1UsingPOST_1",
                 "consumes": [
                     "application/json"
@@ -360,14 +360,14 @@
                     {
                         "name": "name",
                         "in": "query",
-                        "description": "ĞÕÃû",
+                        "description": "å§“å",
                         "required": false,
                         "type": "string"
                     },
                     {
                         "name": "tel",
                         "in": "query",
-                        "description": "µç»°ºÅÂë",
+                        "description": "ç”µè¯å·ç ",
                         "required": false,
                         "type": "string"
                     }
@@ -397,10 +397,10 @@
         "/api/test/reqbody2": {
             "post": {
                 "tags": [
-                    "²âÊÔÓÃÀı"
+                    "æµ‹è¯•ç”¨ä¾‹"
                 ],
-                "summary": "RequestBody½Ó¿ÚÀàĞÍ2",
-                "description": "RequestBody²âÊÔ½Ó¿Ú2-stringÀàĞÍ",
+                "summary": "RequestBodyæ¥å£ç±»å‹2",
+                "description": "RequestBodyæµ‹è¯•æ¥å£2-stringç±»å‹",
                 "operationId": "reqbody2UsingPOST",
                 "consumes": [
                     "application/json"
@@ -444,10 +444,10 @@
         "/api/test/reqbody3": {
             "post": {
                 "tags": [
-                    "²âÊÔÓÃÀı"
+                    "æµ‹è¯•ç”¨ä¾‹"
                 ],
-                "summary": "header²ÎÊı",
-                "description": "header²ÎÊı",
+                "summary": "headerå‚æ•°",
+                "description": "headerå‚æ•°",
                 "operationId": "reqbody3UsingPOST",
                 "consumes": [
                     "application/json"
@@ -512,7 +512,7 @@
         "/api/testc/resp": {
             "get": {
                 "tags": [
-                    "²âÊÔC"
+                    "æµ‹è¯•C"
                 ],
                 "summary": "resp",
                 "operationId": "respUsingGET",
@@ -544,7 +544,7 @@
         "/api/testc/rest": {
             "get": {
                 "tags": [
-                    "²âÊÔC"
+                    "æµ‹è¯•C"
                 ],
                 "summary": "rest",
                 "operationId": "restUsingGET",
@@ -576,10 +576,10 @@
         "/api/testc/select1": {
             "post": {
                 "tags": [
-                    "²âÊÔC"
+                    "æµ‹è¯•C"
                 ],
-                "summary": "header²ÎÊı",
-                "description": "header²ÎÊı",
+                "summary": "headerå‚æ•°",
+                "description": "headerå‚æ•°",
                 "operationId": "reqbody3UsingPOST_1",
                 "consumes": [
                     "application/json"
@@ -648,7 +648,7 @@
         "/api/testc/selectLog": {
             "post": {
                 "tags": [
-                    "²âÊÔC"
+                    "æµ‹è¯•C"
                 ],
                 "summary": "selectLog",
                 "description": "selectLog",
@@ -705,7 +705,7 @@
         "/api/testc/xdf/{code}": {
             "delete": {
                 "tags": [
-                    "²âÊÔC"
+                    "æµ‹è¯•C"
                 ],
                 "summary": "urlpath",
                 "operationId": "urlpathUsingDELETE",
@@ -747,9 +747,9 @@
         "/api/upload/uploadMaterial": {
             "post": {
                 "tags": [
-                    "ÎÄ¼şÉÏ´«"
+                    "æ–‡ä»¶ä¸Šä¼ "
                 ],
-                "summary": "ÎÄ¼şËØ²ÄÉÏ´«½Ó¿Ú",
+                "summary": "æ–‡ä»¶ç´ æä¸Šä¼ æ¥å£",
                 "operationId": "uploadMaterialUsingPOST",
                 "consumes": [
                     "application/json"
@@ -761,7 +761,7 @@
                     {
                         "in": "body",
                         "name": "file",
-                        "description": "ÎÄ¼şÁ÷¶ÔÏó,½ÓÊÕÊı×é¸ñÊ½",
+                        "description": "æ–‡ä»¶æµå¯¹è±¡,æ¥æ”¶æ•°ç»„æ ¼å¼",
                         "required": true,
                         "schema": {
                             "$ref": "#/definitions/MultipartFile"
@@ -804,8 +804,8 @@
                 "tags": [
                     "user-controller"
                 ],
-                "summary": "»ñÈ¡Ö¸¶¨idÓÃ»§ÏêÏ¸ĞÅÏ¢",
-                "description": "¸ù¾İuserµÄidÀ´»ñÈ¡ÓÃ»§ÏêÏ¸ĞÅÏ¢",
+                "summary": "è·å–æŒ‡å®šidç”¨æˆ·è¯¦ç»†ä¿¡æ¯",
+                "description": "æ ¹æ®userçš„idæ¥è·å–ç”¨æˆ·è¯¦ç»†ä¿¡æ¯",
                 "operationId": "getUserUsingGET",
                 "consumes": [
                     "application/json"
@@ -817,7 +817,7 @@
                     {
                         "name": "id",
                         "in": "path",
-                        "description": "ÓÃ»§id",
+                        "description": "ç”¨æˆ·id",
                         "required": false,
                         "type": "string",
                         "default": "1"
@@ -845,8 +845,8 @@
                 "tags": [
                     "user-controller"
                 ],
-                "summary": "´´½¨ÓÃ»§",
-                "description": "¸ù¾İUser¶ÔÏó´´½¨ÓÃ»§",
+                "summary": "åˆ›å»ºç”¨æˆ·",
+                "description": "æ ¹æ®Userå¯¹è±¡åˆ›å»ºç”¨æˆ·",
                 "operationId": "insertUsingPOST",
                 "consumes": [
                     "application/json"
@@ -866,7 +866,7 @@
                     {
                         "in": "body",
                         "name": "user",
-                        "description": "ÓÃ»§ĞÅÏ¢",
+                        "description": "ç”¨æˆ·ä¿¡æ¯",
                         "required": true,
                         "schema": {
                             "$ref": "#/definitions/User"
@@ -898,8 +898,8 @@
                 "tags": [
                     "user-controller"
                 ],
-                "summary": "É¾³ıÖ¸¶¨idÓÃ»§",
-                "description": "¸ù¾İidÀ´É¾³ıÓÃ»§ĞÅÏ¢",
+                "summary": "åˆ é™¤æŒ‡å®šidç”¨æˆ·",
+                "description": "æ ¹æ®idæ¥åˆ é™¤ç”¨æˆ·ä¿¡æ¯",
                 "operationId": "deleteUsingDELETE",
                 "consumes": [
                     "application/json"
@@ -911,7 +911,7 @@
                     {
                         "name": "id",
                         "in": "path",
-                        "description": "ÓÃ»§id",
+                        "description": "ç”¨æˆ·id",
                         "required": false,
                         "type": "ref"
                     }
@@ -940,8 +940,8 @@
                 "tags": [
                     "user-controller"
                 ],
-                "summary": "»ñÈ¡ËùÓĞÓÃ»§ÏêÏ¸ĞÅÏ¢",
-                "description": "»ñÈ¡ÓÃ»§ÁĞ±íĞÅÏ¢",
+                "summary": "è·å–æ‰€æœ‰ç”¨æˆ·è¯¦ç»†ä¿¡æ¯",
+                "description": "è·å–ç”¨æˆ·åˆ—è¡¨ä¿¡æ¯",
                 "operationId": "getUserListUsingGET",
                 "consumes": [
                     "application/json"
@@ -976,7 +976,7 @@
                 "tags": [
                     "hello-world-controller"
                 ],
-                "summary": "ÄãºÃ",
+                "summary": "ä½ å¥½",
                 "description": "Hello World",
                 "operationId": "indexUsingGET",
                 "consumes": [
@@ -1013,20 +1013,20 @@
                     "type": "integer",
                     "format": "int64",
                     "example": 1,
-                    "description": "±àºÅ"
+                    "description": "ç¼–å·"
                 },
                 "password": {
                     "type": "string",
                     "example": "ceshiname",
-                    "description": "ÃÜÂë"
+                    "description": "å¯†ç "
                 },
                 "username": {
                     "type": "string",
                     "example": "123",
-                    "description": "ÓÃ»§Ãû"
+                    "description": "ç”¨æˆ·å"
                 }
             },
-            "description": "ÓÃ»§¶ÔÏó"
+            "description": "ç”¨æˆ·å¯¹è±¡"
         },
         "ReqEntity": {
             "type": "object",
@@ -1034,12 +1034,12 @@
                 "name": {
                     "type": "string",
                     "example": "ceshiname",
-                    "description": "ĞÕÃû"
+                    "description": "å§“å"
                 },
                 "tel": {
                     "type": "string",
                     "example": "555",
-                    "description": "µç»°ºÅÂë"
+                    "description": "ç”µè¯å·ç "
                 }
             },
             "description": "ReqEntity desc"
@@ -1068,22 +1068,22 @@
             "type": "object",
             "properties": {
                 "data": {
-                    "description": "·µ»Ø¶ÔÏó",
+                    "description": "è¿”å›å¯¹è±¡",
                     "$ref": "#/definitions/ReqEntity"
                 },
                 "errCode": {
                     "type": "integer",
                     "format": "int32",
-                    "description": "´íÎó±àºÅ"
+                    "description": "é”™è¯¯ç¼–å·"
                 },
                 "message": {
                     "type": "string",
-                    "description": "´íÎóĞÅÏ¢"
+                    "description": "é”™è¯¯ä¿¡æ¯"
                 },
                 "success": {
                     "type": "boolean",
                     "example": false,
-                    "description": "ÊÇ·ñ³É¹¦"
+                    "description": "æ˜¯å¦æˆåŠŸ"
                 }
             },
             "description": "Rest desc"
@@ -1093,10 +1093,10 @@
             "properties": {
                 "code": {
                     "type": "string",
-                    "description": "±àÂë"
+                    "description": "ç¼–ç "
                 },
                 "reqEntity": {
-                    "description": "·µ»Ø¶ÔÏó",
+                    "description": "è¿”å›å¯¹è±¡",
                     "$ref": "#/definitions/ReqEntity"
                 }
             },
@@ -1107,18 +1107,18 @@
             "properties": {
                 "childrens": {
                     "type": "array",
-                    "description": "×ÓÔªËØ",
+                    "description": "å­å…ƒç´ ",
                     "items": {
                         "$ref": "#/definitions/Menu"
                     }
                 },
                 "label": {
                     "type": "string",
-                    "description": "±àºÅ"
+                    "description": "ç¼–å·"
                 },
                 "text": {
                     "type": "string",
-                    "description": "Ãû³Æ"
+                    "description": "åç§°"
                 }
             },
             "description": "Menu desc"

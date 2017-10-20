@@ -1,4 +1,4 @@
-﻿{
+{
     "swagger": "2.0",
     "info": {
         "description": "Swagger Bootstrap UI",
@@ -558,7 +558,7 @@
                     "200": {
                         "description": "OK",
                         "schema": {
-                            "$ref": "#/definitions/Rest?ReqEntity?"
+                            "$ref": "#/definitions/Rest«ReqEntity»"
                         }
                     },
                     "401": {
@@ -1064,7 +1064,7 @@
             },
             "description": "RestMessage desc"
         },
-        "Rest?ReqEntity?": {
+        "Rest«ReqEntity»": {
             "type": "object",
             "properties": {
                 "data": {
